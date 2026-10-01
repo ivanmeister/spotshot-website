@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>SpotShot patch notes</title><description>Every SpotShot release and what it changed, newest first.</description><link>https://spotshot.gg/changelog/</link><language>en</language><item><title>SpotShot 1.0.0</title><link>https://spotshot.gg/changelog/#v1.0.0</link><guid isPermaLink="true">https://spotshot.gg/changelog/#v1.0.0</guid><pubDate>Thu, 01 Oct 2026 02:41:11 GMT</pubDate><content:encoded>&lt;h3&gt;&lt;/h3&gt;&lt;p&gt;The first official release of SpotShot: screenshots, hand setups and tournament structures, with a
+spot library for your ICM spots on Windows.&lt;/p&gt;
+&lt;h3&gt;SpotShot features&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;One key, the whole spot.&lt;/strong&gt; Press one key at the table. SpotShot captures the table, opens the
+lobby and captures it with the payouts automatically, then combines the screenshots into one
+capture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hand setup and tournament structure for each spot.&lt;/strong&gt; Once your session is over and poker clients
+are closed, SpotShot analyses every capture on your PC and generates a hand setup .txt file, ready
+to import to HRC and GTO Wizard, and a tournament structure .json file for HRC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Every figure worked out:&lt;/strong&gt; player knockouts in BB, total chips in play and the average mystery
+bounty are calculated automatically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anonymous mode:&lt;/strong&gt; an option to hide your and other players&amp;#39; names on the capture during the spot
+analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A spot library:&lt;/strong&gt; every spot described and sorted, found by position, stack, stage, hole cards,
+room or custom tag, with notes and a one-page PDF presentation editor for each spot. Send a spot,
+a search or the whole library to your friend or coach in one .zip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Works with&lt;/strong&gt; GGPoker, PokerStars, PartyPoker, 888poker, ACR, Winamax, WPT Global, CoinPoker,
+iPoker (Red Star), PokerDom, Chico and QQPK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;SpotShot design&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Private by design.&lt;/strong&gt; While you play, SpotShot only takes screenshots: nothing is analysed, and
+the spot library stays unavailable, until every poker client is closed. No account needed, player
+names do not appear in the hand setup files, and your captures never leave your PC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security.&lt;/strong&gt; During your session SpotShot acts as a regular screenshot app: apart from taking
+screenshots, it only opens the lobby of the chosen table and gets its payouts or bounties on
+screen.&lt;/li&gt;
+&lt;li&gt;SpotShot goes online &lt;strong&gt;only to check for updates and for its periodic access check&lt;/strong&gt;; all the
+analysis is done offline on your PC.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item></channel></rss>

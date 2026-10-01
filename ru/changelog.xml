@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Обновления SpotShot</title><description>Все версии SpotShot и изменения в каждой из них, начиная с последней.</description><link>https://spotshot.gg/ru/changelog/</link><language>ru</language><item><title>SpotShot 1.0.0</title><link>https://spotshot.gg/ru/changelog/#v1.0.0</link><guid isPermaLink="true">https://spotshot.gg/ru/changelog/#v1.0.0</guid><pubDate>Thu, 01 Oct 2026 02:41:11 GMT</pubDate><content:encoded>&lt;h3&gt;&lt;/h3&gt;&lt;p&gt;Первый официальный выпуск SpotShot: скриншоты, файлы с деталями раздач, структуры турниров и
+библиотека для ваших ICM-спотов на Windows.&lt;/p&gt;
+&lt;h3&gt;Функции SpotShot&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Одно нажатие, весь спот.&lt;/strong&gt; Нажмите одну клавишу за столом. SpotShot сам захватит стол, откроет
+лобби и захватит его вместе с выплатами, а затем объединит скриншоты в один снимок.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Детали раздачи и структура турнира для каждого спота.&lt;/strong&gt; Когда вы закончите покерную сессию и
+покерные клиенты будут полностью закрыты, SpotShot проанализирует каждый снимок на вашем ПК и
+создаст файл с деталями раздачи (.txt), готовый к импорту в HRC и GTO Wizard, и файл структуры
+турнира (.json) для HRC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Все цифры посчитаны:&lt;/strong&gt; нокауты игроков в BB, общее количество фишек в турнире и средний сундук
+mystery bounty считаются автоматически.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Анонимный режим:&lt;/strong&gt; при анализе спота можно скрыть на снимке свой ник и ники других игроков.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Библиотека спотов:&lt;/strong&gt; каждый спот описан и отсортирован, его можно найти по позиции, стеку,
+стадии, своим картам, руму или своему тегу, с заметками и редактором PDF-презентации для каждого
+спота. Отправьте спот, результаты поиска или всю библиотеку другу или тренеру одним .zip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Работает с&lt;/strong&gt; GGPoker, PokerStars, PartyPoker, 888poker, ACR, Winamax, WPT Global, CoinPoker,
+iPoker (Red Star), PokerDom, Chico и QQPK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Как устроен SpotShot&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Приватность.&lt;/strong&gt; Во время игры SpotShot только делает скриншоты: ничего не анализируется, а
+библиотека спотов недоступна, пока открыт хоть один покерный клиент. Аккаунт не нужен, ники
+игроков не попадают в файлы с деталями раздачи, а снимки не покидают ваш ПК.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Безопасность.&lt;/strong&gt; Во время сессии SpotShot ведёт себя как обычный скриншоттер: кроме скриншотов,
+он только открывает лобби выбранного стола и выводит на экран выплаты или баунти.&lt;/li&gt;
+&lt;li&gt;Использует доступ в интернет &lt;strong&gt;только для проверки наличия нового обновления и периодической
+проверки актуального доступа к приложению&lt;/strong&gt;; весь анализ скриншотов выполняется локально на
+вашем ПК.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item></channel></rss>
