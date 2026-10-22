@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>SpotShot patch notes</title><description>Every SpotShot release and what it changed, newest first.</description><link>https://spotshot.gg/changelog/</link><language>en</language><item><title>SpotShot 1.0.2</title><link>https://spotshot.gg/changelog/#v1.0.2</link><guid isPermaLink="true">https://spotshot.gg/changelog/#v1.0.2</guid><pubDate>Thu, 22 Oct 2026 04:54:28 GMT</pubDate><content:encoded>&lt;h3&gt;&lt;/h3&gt;&lt;p&gt;Export to HRC, screenshot import for every room, GGPoker through your own screenshots, and a new look.&lt;/p&gt;
+&lt;h3&gt;Export to HRC&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;One button sends a spot to HoldemResources Calculator, and Open in HRC loads its tree.&lt;/li&gt;
+&lt;li&gt;HRC trees saved under the spot&amp;#39;s Capture id are attached to the spot automatically, multiple trees can be saved for one spot.&lt;/li&gt;
+&lt;li&gt;Mystery bounty tournaments: the average mystery bounty is automatically calculated and used as the knockout in HRC.&lt;/li&gt;
+&lt;li&gt;Every HRC file on a spot has its own Open in HRC button, and Detach puts the file back where it came from.&lt;/li&gt;
+&lt;li&gt;Setting &amp;quot;Do not move HRC files to the library&amp;quot;: HRC files stay where they are and are linked to the spot from there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;GGPoker&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SpotShot no longer interacts with GG Network clients (GGPoker, PokerOK, Natural8): it does not capture, open, click or move their windows.&lt;/li&gt;
+&lt;li&gt;SpotShot can stay open beside a GG client and keeps working with your other rooms; analysis still waits until every poker client, GG included, is closed.&lt;/li&gt;
+&lt;li&gt;For GG spots, take screenshots of the table and the lobby yourself, or save the hand replay and the tournament result from PokerCraft, and import them after your session. PokerCraft pictures are paired by the tournament name.&lt;/li&gt;
+&lt;li&gt;A step-by-step guide for GGPoker spots at spotshot.gg/ggpoker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Import your screenshots&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Import your own screenshots in every room: press Import screenshots on the main window or in the library and choose the new screenshots, a folder or files, or drop them on either window.&lt;/li&gt;
+&lt;li&gt;SpotShot matches tables to lobbies automatically. It recognises the room of each screenshot and pairs each table with its lobby by the tournament, the players left and the time.&lt;/li&gt;
+&lt;li&gt;Choose a single folder and SpotShot watches the folder on every startup to see if any new screenshots are made and ready to be imported.&lt;/li&gt;
+&lt;li&gt;A table screenshot alone gives the hand setup; a lobby screenshot alone gives the tournament structure, shown in the library as Structure only.&lt;/li&gt;
+&lt;li&gt;Imported screenshots are ready to be analysed as spots in the library under Raw Captures tab after your session.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;New look&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;A new look for the main window, the library and the spot windows&lt;/li&gt;
+&lt;li&gt;New custom theme settings in the native Windows 11 style.&lt;/li&gt;
+&lt;li&gt;SpotShot runs and starts much faster, and the library opens faster.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Library&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Every spot now shows its tournament stage: Late reg, Near bubble, Bubble, Stone bubble, ITM, Pay jump, Pre FT or FT, and you can filter and search by it.&lt;/li&gt;
+&lt;li&gt;Newest first: Raw captures lists the newest captures first and All spots the newest analysed first; either can be sorted by table time instead, and the choice is remembered.&lt;/li&gt;
+&lt;li&gt;Each spot keeps its original screenshots and a reader log, so a misread spot can be sent with what caused it. A spot archive includes them only when you tick the bug report box.&lt;/li&gt;
+&lt;li&gt;Your own colours for tags and folders.&lt;/li&gt;
+&lt;li&gt;Library header reworked: Sort and View menus, Reviewed in the sidebar, clicking a status again clears it.&lt;/li&gt;
+&lt;li&gt;An open that leaves less than half the stack behind is now named &amp;quot;RFI Ai&amp;quot;.&lt;/li&gt;
+&lt;li&gt;A capture taken after your own raise is named for the spot you faced.&lt;/li&gt;
+&lt;li&gt;If a table and lobby were incorrectly matched, you can replace or add the correct table/lobby image to the spot manually. The spot is reanalysed automatically after the changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;A HUD covering the lobby button no longer stops the lobby capture, and if it still does, SpotShot says which program to move.&lt;/li&gt;
+&lt;li&gt;Winamax: another table of the same tournament is no longer captured as the lobby.&lt;/li&gt;
+&lt;li&gt;GGPoker Ocean KO: everything is read except the knockouts (Ocean KO not yet fully supported).&lt;/li&gt;
+&lt;li&gt;Anonymous mode covers names more precisely on PokerStars.&lt;/li&gt;
+&lt;li&gt;Hand reading improved in every room: hero&amp;#39;s cards, bets, all-ins, seats and players at short-handed tables.&lt;/li&gt;
+&lt;li&gt;The library no longer slows down after zooming a capture, and recovers by itself if its window freezes.&lt;/li&gt;
+&lt;li&gt;Lobbies are captured slightly faster across all poker rooms.&lt;/li&gt;
+&lt;li&gt;Fixed connection issue on networks that use IPv6. &lt;/li&gt;
+&lt;li&gt;Improved security in verifying each of the new updates.&lt;/li&gt;
+&lt;li&gt;Many other small fixes in the interface, the capture and the hand reading.&lt;/li&gt;
+&lt;li&gt;SpotShot uses much less memory during a session and after an analysis run.&lt;/li&gt;
+&lt;li&gt;ACR: the bounty badges on every seat are read, and the prize list that scrolls sideways is captured to its last column.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item><item><title>SpotShot 1.0.1</title><link>https://spotshot.gg/changelog/#v1.0.1</link><guid isPermaLink="true">https://spotshot.gg/changelog/#v1.0.1</guid><pubDate>Thu, 08 Oct 2026 23:56:26 GMT</pubDate><content:encoded>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Now can capture with mouse buttons.&lt;/li&gt;
+&lt;li&gt;Getting started and a library tour for new users.&lt;/li&gt;
+&lt;li&gt;New presentation layouts.&lt;/li&gt;
+&lt;li&gt;Zoom and drag on spot&amp;#39;s captures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Reworked sidebar sections.&lt;/li&gt;
+&lt;li&gt;Reworked Raw Captures queue UI.&lt;/li&gt;
+&lt;li&gt;Revisit is now called Solving (section for spots that are queued in HRC).&lt;/li&gt;
+&lt;li&gt;When deleting spots from the library it double checks your decision.&lt;/li&gt;
+&lt;li&gt;A new install starts in Russian automatically on a Windows set to Russian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Hand reading improved in every room.&lt;/li&gt;
+&lt;li&gt;Winamax capture detection improved, including stacks, the action and the prize list.&lt;/li&gt;
+&lt;li&gt;Winamax Space KO: everything is read except the knockouts (Space KO not yet fully supported).&lt;/li&gt;
+&lt;li&gt;Chico (Tiger Gaming, Bet Online, Sports Betting): captures fixed, including prizes, stacks and bounties.&lt;/li&gt;
+&lt;li&gt;PokerDom: added a fallback for tournament lobby to open in case the first try fails.&lt;/li&gt;
+&lt;li&gt;GGPoker in Russian and tournaments in yuan are read correctly.&lt;/li&gt;
+&lt;li&gt;Tournament structures, knockout bounties, chips in play are read more reliably.&lt;/li&gt;
+&lt;li&gt;Anonymous mode hides names more reliably.&lt;/li&gt;
+&lt;li&gt;Many other smaller fixes.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item><item><title>SpotShot 1.0.0</title><link>https://spotshot.gg/changelog/#v1.0.0</link><guid isPermaLink="true">https://spotshot.gg/changelog/#v1.0.0</guid><pubDate>Thu, 01 Oct 2026 02:41:11 GMT</pubDate><content:encoded>&lt;h3&gt;&lt;/h3&gt;&lt;p&gt;The first official release of SpotShot: screenshots, hand setups and tournament structures, with a
+spot library for your ICM spots on Windows.&lt;/p&gt;
+&lt;h3&gt;SpotShot features&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;One key, the whole spot.&lt;/strong&gt; Press one key at the table. SpotShot captures the table, opens the
+lobby and captures it with the payouts automatically, then combines the screenshots into one
+capture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hand setup and tournament structure for each spot.&lt;/strong&gt; Once your session is over and poker clients
+are closed, SpotShot analyses every capture on your PC and generates a hand setup .txt file, ready
+to import to HRC and GTO Wizard, and a tournament structure .json file for HRC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Every figure worked out:&lt;/strong&gt; player knockouts in BB, total chips in play and the average mystery
+bounty are calculated automatically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anonymous mode:&lt;/strong&gt; an option to hide your and other players&amp;#39; names on the capture during the spot
+analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A spot library:&lt;/strong&gt; every spot described and sorted, found by position, stack, stage, hole cards,
+room or custom tag, with notes and a one-page PDF presentation editor for each spot. Send a spot,
+a search or the whole library to your friend or coach in one .zip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Works with&lt;/strong&gt; GGPoker, PokerStars, PartyPoker, 888poker, ACR, Winamax, WPT Global, CoinPoker,
+iPoker (Red Star), PokerDom, Chico and QQPK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;SpotShot design&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Private by design.&lt;/strong&gt; While you play, SpotShot only takes screenshots: nothing is analysed, and
+the spot library stays unavailable, until every poker client is closed. No account needed, player
+names do not appear in the hand setup files, and your captures never leave your PC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security.&lt;/strong&gt; During your session SpotShot acts as a regular screenshot app: apart from taking
+screenshots, it only opens the lobby of the chosen table and gets its payouts or bounties on
+screen.&lt;/li&gt;
+&lt;li&gt;SpotShot goes online &lt;strong&gt;only to check for updates and for its periodic access check&lt;/strong&gt;; all the
+analysis is done offline on your PC.&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item></channel></rss>

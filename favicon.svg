@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- The app's logo in its two themes: logo.png on a dark tab strip, logo-light.png on a light one. -->
+  <style>
+    .tile { fill: #0067c0; } .ink { stroke: #f2f2f2; } .oval { fill: #f2f2f2; }
+    @media (prefers-color-scheme: dark) { .tile { fill: #4cc2ff; } .ink { stroke: #222222; } .oval { fill: #222222; } }
+  </style>
+  <rect class="tile" x="5" y="5" width="1014" height="1014" rx="64"/>
+  <g class="ink" fill="none" stroke-width="60" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M102 234V117h117M805 117h117v117M102 789v117h117M805 906h117V789"/>
+  </g>
+  <ellipse class="oval" cx="512" cy="512" rx="433" ry="235"/>
+</svg>
